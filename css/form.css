@@ -137,7 +137,7 @@ i{
     color: white;
     background-color: #801515;
     font-weight: bold;
-    width: 70%;
+    width: max-content;
     border-style: none;
     border-radius: 1em;
     padding: 0.5em 2em;
