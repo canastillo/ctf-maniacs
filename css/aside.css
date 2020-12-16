@@ -1,0 +1,38 @@
+aside{
+    float:right;
+    width: 25%;
+    margin: auto;
+    margin-bottom:  2em;
+}
+#link{
+    width: 90%;
+    margin: 1em;
+    margin-left: 0;
+    background-color:darkred;
+    margin-top: 2em;
+    text-align: center;
+    padding-bottom: 1em;
+    padding-top: 2em;
+}
+#link h4{
+    font-size: 2vw
+}
+#link p{
+    margin: 0 1em;
+    margin-top: 1.5em;
+    font-size: 1.5vw;
+    display: block;
+}
+#link a{
+    text-decoration:none;
+    background-color: rgb(20,20,20);
+    padding: 0.7em 1em;
+    font-size: 2vw;
+    margin: 1em;
+    display: block;
+}
+#link ol{
+    text-align: left;
+    width: max-content;
+    margin: auto;
+}

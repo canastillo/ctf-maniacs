@@ -1,0 +1,177 @@
+#cont-form h4{
+    font-size: 3vw;
+}
+#cont-form{
+    margin: auto;
+}
+#form{
+    background-color: rgb(20,20,20);
+    width: max-content;
+    margin: auto;
+    margin-top: 2em;
+    text-align: center;
+    padding: 1em 2em;
+    border-radius: 1em;
+    box-shadow: 0 10px 15px 8px rgba(0, 0, 0, 0.2), 0 4px 6px -2px rgba(0, 0, 0, 0.10);
+    margin-bottom: 2em;
+}
+/* #cont-form #form form input, textarea{
+    color: black;
+} */
+form{
+    margin-top: 1em;
+    font-size: 2vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+#bar{
+    text-align: center;
+    border-style: none;
+    border-bottom: 1.5px solid white;
+    margin-right: 1em;
+    color: white;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex: 2;
+    background-color: rgb(20,20,20);
+}
+
+#btnAdd{
+    border-style: none;
+    padding: .4em .7em;
+    background-color: #801515;
+    color: white;
+    border-radius: 1em;
+    font-size: 1em;
+    font-weight: bold;
+    flex: 0.5;
+}
+
+#list-bg{
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    margin-top: 2em;
+    padding: .005em 0;
+    border-radius: 1em;
+}
+
+#container{
+    width: 90%;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+}
+
+p{
+    margin: auto;
+}
+
+#list{
+    background-color: white;
+    text-align: left;
+}
+
+.checkbox{
+    margin-right: 30px;
+}
+
+.task{
+    list-style: none;
+    background-color: white;
+    width: 100%;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-around;
+    margin: 0.5em 0;
+}
+
+input[type=checkbox]{
+    margin-right: 1.5em;
+}
+
+.text{
+    background-color: white;
+    color: black;
+    border-style: none;
+    font-size: 1em;
+    width: 70%;
+}
+
+.icons{
+    width: max-content;
+    background-color: white;
+    display: flex;
+}
+
+i{
+    color: #808080;
+    background-color: white;
+    margin: 0 0.25em;
+}
+
+#edit:hover{
+    color: green;
+}
+
+#delete:hover{
+    color: red;
+}
+
+.btnSave{
+    border-style: none;
+    padding: 0.5em 0.5em;
+    background-color: #801515;
+    color: white;
+    border-radius: 1em;
+    font-size: .7em;
+    font-weight: bold;
+}
+
+#cont-delete{
+    text-align: center;
+}
+
+#btnDelete{
+    color: white;
+    background-color: #801515;
+    font-weight: bold;
+    width: max-content;
+    border-style: none;
+    border-radius: 1em;
+    padding: 0.5em 2em;
+    margin: 1em auto;
+    font-size: 1.2em;
+}
+
+.done{
+    color: grey;
+    text-decoration: line-through 2px;
+    text-decoration-color: grey;
+}
+
+.editing{
+    border-bottom: 1px solid white;
+}
+
+.hidden{
+    display: none;
+}
+
+/* form input{
+    font-size: 2vw;
+    border-radius: 1em;
+}
+form input[type=submit]{
+    margin-top: 1em;
+    background-color: crimson;
+    border: none;
+    padding: 0.7em 1em;
+    border-radius: 0.5em;
+    font-size: 1.5vw;
+    columns: white;
+}
+textarea{
+    width: 80%;
+} */

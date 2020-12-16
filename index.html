@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slideshow.css">
+    <link rel="stylesheet" href="css/aside.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <title>CTF Maniacs</title>
+</head>
+<body>
+    <header id="header">
+        <div id="titulo">
+            <h1><span id="ctf">CTF</span><span id="maniacs">Maniacs</span> </h1>
+            <div  id="bienvenida"><p>Bienvenido al santuario de los nerds</p></div>
+        </div>
+        
+        <div id="linea"><hr></div>
+    </header>
+
+    <div class="menu_bar">
+        <p class="bt-menu">Menu</p>
+    </div>
+       
+    <nav id="barra">
+        <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="./gallery.html">Script Kiddie</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+            <li><a href="./form.html">¡Participa!</a></li>
+        </ul>
+    </nav>
+
+    <div id="cuerpo">
+        <main>
+            <div id="contenedor">
+                <section id="blog">
+                    <header>
+                        <h2>Blog</h2>
+                        <p>Entérate de las últimas novedades e incrementa tus skills con los blogs más frescos</p>
+                    </header>
+
+                    <div id="slideshow">
+                        <div class="control-container">
+                            <a class="prev" onclick="prevSlide()">&#10094;</a>
+                            
+                            <div id="slideshow-cont">
+                                <div class="mySlides fade">
+                                    <img src="./img/ctf-tools.jpg" alt="">
+                                    <div class="text">Herramientas para CTFs</div>
+                                </div>
+                                
+                                <div class="mySlides fade">
+                                    <img src="./img/ctf.png" alt="">
+                                    <div class="text">Las competencias más grandes</div>
+                                </div>
+                                
+                                <div class="mySlides fade">
+                                    <img src="./img/podcast.jpg" alt="">
+                                    <div class="text">Podcasts sobre ciberseguridad</div>
+                                </div>
+                            </div>
+                        
+                            <a class="next" onclick="nextSlide()">&#10095;</a>
+                            
+                            <div id="dot-cont" style="text-align:center">
+                                <span class="dot" onclick="currentSlide(0)"></span>
+                                <span class="dot" onclick="currentSlide(1)"></span>
+                                <span class="dot" onclick="currentSlide(2)"></span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <aside>
+                <div id="link">
+                    <h4>Descubre CTFs en tu región</h4>
+                    <p>Hay CTFs todo el tiempo, cada fin de semana. Visita este link para más información</p>
+                    <a href="https://ctftime.org/">¡Entra!</a>
+                </div>
+            </aside>
+        </main>
+
+        <footer>
+            <div id="f">
+                <small>&copy; Copyright 2020. <address style="display: inline-block;"><a href="#">Ana Castillo</a></address></small>
+                <div class="social">
+                    <a href="#"><img src="img/iconfinder_FB_1217141.png" alt="youtube"></a>
+                    <a href="#"><img src="img/iconfinder_INSTAGRAM_1217174.png" alt="linkedin"></a>
+                    <a href="#"><img src="img/iconfinder_TWITTER_1217163.png" alt="instagram"></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/slideshow.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+
+.fotos{
+    display: flex;
+    width: 90%;
+    margin:auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.fotos .imagen{
+    width: 32%; /*Para que entren tres imágenes*/
+    height: 250px;
+    margin: 40px 0;
+    border-radius: 0.5em;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,.75);
+}
+
+.imagen img.hover{
+    transform: scale(1.2);
+    transform-origin: 17em center;
+}
+.imagen img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.5em;
+    transition: .3s ease all;
+}
+.hide-text{
+    transition: .3s ease all;
+    display: none;
+}

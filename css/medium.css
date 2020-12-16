@@ -1,0 +1,174 @@
+@media screen and (max-width: 1026px){
+    #top{
+        display: none;
+    }
+    #header{
+        position: fixed;
+        z-index: 1;
+        width: 100%;
+        top: 0%;
+    }
+    #header div{
+        margin: 0 auto;
+    }
+    #header h1{
+        padding-top: 20px;
+        margin: auto;
+    }
+    #cuerpo{
+        margin-top: 200px;
+    }
+    #ausilio{
+        padding-bottom: 0px;
+    }
+    #ctf{
+        font-size: 80px;
+        line-height: 0.85em;
+        max-height: min-content; 
+    }
+    #maniacs{
+        font-size: 90px;
+        line-height: 0.75em;
+    }
+    #titulo #bienvenida{
+        font-size: 30px;
+    }
+    hr{
+        margin-bottom: 3em;
+    }
+    #barra
+    {
+        z-index: 2;
+        width: 210px;
+        height: 90%;
+        position: fixed;
+        left: -100%;
+        top: 199px;
+    }
+    #barra ul{
+        display: block;
+    }
+    #barra ul li
+    {
+        margin-left: 10px;
+        text-align: left;
+        width: 80%;
+        display: block;
+        float: none;   
+        border-bottom: 1px solid rgba(255,255,255,0.3);
+    }
+    .menu_bar
+    {
+        position: fixed;
+        background-color: rgb(20,20,20);
+        display: block;
+        width: 21%;
+        height: min-content;
+        margin-top: 200px;
+        z-index: 2;
+        top: -40px;
+    } 
+    .menu_bar .bt-menu
+    {
+        display: block;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: bold;
+        box-sizing: border-box;
+        width: 100%;
+        margin-left: 50px;
+        cursor: pointer;
+    }
+    .menu_bar span
+    {
+        float: right;
+        font-size: 40px;
+    }
+    #contenedor{
+        float: none;
+        margin: auto;
+        width: 70%;
+        height: max-content;
+        padding: 0;
+        margin-bottom: 4em;
+    }
+
+    /* slideshow */
+    #blog{
+        padding: 0;
+        margin-bottom: 2em;
+    }
+    .control-container {
+        height: 45%;
+    }
+    #slideshow-cont{
+        height: 45%;
+        z-index: inherit;
+    }
+
+    /* galería */
+    .fotos .imagen{
+        width: 45%;
+        margin-bottom: 5px;
+        border-radius: 0.5em;
+    }
+    .imagen img.hover{
+        transform: scale(1.05);
+        transform-origin: 40em center;
+    }
+    
+    /* lista */
+    #form{
+        width: 100%;
+        margin: 0;
+    }
+    #write-up{
+        padding-top: 1em;
+    }
+    #write-up h2{
+        margin-bottom: .2em;
+    }
+
+    label{
+        font-size: 3vw;
+    }
+
+    /* aside */
+    aside{
+        float: none;
+        width: 78%;
+        margin: auto;
+        margin-bottom: 2em;
+        display: block;
+    }
+    #link{
+        margin: auto;
+        text-align: center;
+    }
+    #link h4{
+        font-size: 3vw
+    }
+    #link p{
+        margin: auto;
+        margin-top: 1em;
+        width: 70%;
+        font-size: 2vw;
+    }
+    #link a{
+        margin: auto;
+        width: 30%;
+        margin-top: 1em;
+    }
+    h2{
+        font-size: 10vw;
+    }
+    section header p{
+        font-size: 2.5vw;
+    }
+
+    h3{
+        margin-top: 1em;
+        font-size: 3vw;
+    }
+}

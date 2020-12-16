@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/aside.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <script src="https://kit.fontawesome.com/7e8924c825.js" crossorigin="anonymous"></script>
+    <title>CTF Maniacs</title>
+</head>
+<body>
+    <div>
+        <header id="header">
+            <div id="titulo">
+                <h1><span id="ctf">CTF</span><span id="maniacs">Maniacs</span> </h1>
+                <div  id="bienvenida"><p>Bienvenido al santuario de los nerds</p></div>
+            </div>
+            
+            <div id="linea"><hr></div>
+        </header>
+        
+        <div class="menu_bar">
+            <p class="bt-menu">Menu</p>
+        </div>
+        
+        <nav id="barra">
+            <ul>
+                <li><a href="./index.html">Blog</a></li>
+                <li><a href="./gallery.html">Script Kiddie</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="./form.html">¡Participa!</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="cuerpo">
+        <main id="ausilio">
+            <div id="contenedor">
+                <header>
+                    <h2>Escríbenos</h2>
+                </header>
+
+                <div class="contactos">
+                    <form name="formulario">
+                        <label>Nombre</label>
+                        <input type="text" name="nombre" id="nombre">
+                
+                        <label>Correo</label>
+                        <input type="email" name="email" id="email">
+                
+                        <label>Asunto</label>
+                        <input type="text" name="asunto" id="asunto">
+                
+                        <label>Mensaje</label>
+                        <textarea name="mensaje" id="mensaje"></textarea>
+                
+                        <input type="submit" name="enviar" value="Enviar">
+                    </form>
+                </div>
+            </div>
+
+            <aside>
+                <div id="link">
+                    <h4>Descubre CTFs en tu región</h4>
+                    <p>Hay CTFs todo el tiempo, cada fin de semana. Visita este link para más información</p>
+                 <a href="https://ctftime.org/">¡Entra!</a>
+                </div>
+            </aside>
+        </main>
+    </div>   
+
+    <footer id="footer">
+        <div id="f">
+            <small>&copy; Copyright 2020. <address style="display: inline-block;"><a href="#">Ana Castillo</a></address></small>
+            <div class="social">
+                <a href="#"><img src="img/iconfinder_FB_1217141.png" alt="youtube"></a>
+                <a href="#"><img src="img/iconfinder_INSTAGRAM_1217174.png" alt="linkedin"></a>
+                <a href="#"><img src="img/iconfinder_TWITTER_1217163.png" alt="instagram"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="./js/menu.js"></script>	
+    <script src="js/validacion.js"></script>
+</body>
+</html>

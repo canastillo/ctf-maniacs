@@ -1,0 +1,25 @@
+table{
+    box-shadow: 0 10px 15px 8px rgba(0, 0, 0, 0.2), 0 4px 6px -2px rgba(0, 0, 0, 0.10);
+    margin: auto;
+    margin-top: 1em;
+    width: 100%;
+    background-color: rgb(20,20,20);
+    border-radius: 1em;
+}
+th:first-child{
+    border-radius:0.4em 0 0 0;
+}
+th:last-child{
+    border-radius:0 0.4em 0 0;
+}
+table thead th{
+    font-size: 2vw;
+    background-color: black;
+}
+table tbody tr{
+    padding: 0.5em;
+    border: white solid 1px;
+}
+td, th{
+    padding: 0.6em;
+}

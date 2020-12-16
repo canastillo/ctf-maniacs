@@ -1,0 +1,172 @@
+@media screen and (max-width: 762px){
+    #contenedor{
+        width: 80%;
+        margin-bottom: 2em;
+    }
+    #cuerpo{
+        margin-top: 155px;
+    }
+    #ausilio{
+        margin-top: 0;
+    }
+    header{
+        padding-top: 10px;
+    }
+    #ctf{
+        font-size: 50px;
+    }
+    #maniacs{
+        font-size: 59px;
+    }
+    #titulo #bienvenida{
+        font-size: 20px;
+    }
+    #barra{
+        top: 171px;
+    }
+    #barra ul li{
+        font-size: 18px;
+    }
+    .menu_bar{
+        top: -66px;
+        width: max-content;
+    }
+    .menu_bar .bt-menu{
+        font-size: 25px;
+    }
+
+    /* slideshow */
+    #contenedor section header p{
+        font-size: 3.2vw;
+    }
+    #contenedor{
+        padding-top: 1em;
+    }
+    #dot-cont{
+        display: none;
+    }
+    .control-container {
+        height: 50%;
+    }
+    #slideshow-cont{
+        height: 50%;
+    }
+    .text{
+        font-size: 1em;
+        bottom: 15px;
+    }
+
+    /* galeria */
+    #galeria{
+        padding-top: 1em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #galeria header{
+        margin-left: 1em;
+    }
+    .fotos{
+        justify-content: space-around;
+        text-align: center;
+        padding: 0px;
+    }
+    .fotos .imagen{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .imagen img.hover{
+        transform-origin: 70em center;
+    }
+
+    /* lista */
+    #write-up{
+        padding: 0;
+        padding-top: 1em;
+    }
+    #write-up header{
+        padding-left: 1em;
+    }
+    #cont-form #form form label{
+        font-size: 2.9vw;
+    }
+    .text{
+        font-size: .9em;
+        height: max-content;
+    }
+    #edit, #delete{
+        font-size: .8em;
+    }
+
+    label{
+        font-size: 4vw;
+    }
+
+    aside{
+        width: auto;
+    }
+    #link{
+        text-align: center;
+        margin: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 80%;
+        padding: .9em;
+    }
+    #link h4{
+        width: max-content;
+        margin: auto;
+        font-size:4vw;
+    }
+    #link p{
+        margin-top: .5em;
+        font-size: 3vw;
+        width: 100%;
+    }
+    #link a{
+        font-size: 1em;
+        padding: 7px 20px;
+    }
+    #ausilio{
+        padding-bottom: 1.5em;
+    }
+}
+@media screen and (max-width: 744px){
+    #ausilio{
+        padding-bottom: 2.6em;
+    }
+}
+@media screen and (max-width: 690px){
+    .imagen img.hover{
+        transform-origin: 62em center;
+    }
+    
+    form{
+        display: block;
+    }
+    #form h4{
+        font-size: 6vw;
+    }
+    #bar{
+        margin: .7em 0;
+        width: 95%;
+        font-size: 3.5vw;
+    }
+    #btnAdd{
+        font-size: 4vw;
+    }
+    #list-bg{
+        width: 100%;
+        margin-top: .8em;
+    }
+}
+@media screen and (max-width: 560px){
+    .imagen img.hover{
+        transform-origin: 55em center;
+    }
+
+}
+@media screen and (max-width: 490px){
+    .imagen img.hover{
+        transform-origin: 45em center;
+    }
+}
