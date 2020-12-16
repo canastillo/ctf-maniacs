@@ -160,7 +160,7 @@
     }
     #btnDelete{
         font-size: .9em;
-        height: max-content;
+        height: 2em;
     }
 }
 @media screen and (max-width: 560px){
