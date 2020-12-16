@@ -158,6 +158,10 @@
         width: 100%;
         margin-top: .8em;
     }
+    #btnDelete{
+        font-size: .9em;
+        height: max-content;
+    }
 }
 @media screen and (max-width: 560px){
     .imagen img.hover{
